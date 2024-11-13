@@ -1,7 +1,6 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "type": "module",
   "description": "[![Actions Status](https://github.com/Viktoria707/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Viktoria707/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
@@ -13,6 +12,7 @@
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js"
   },
+  "type": "module",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
