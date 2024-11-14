@@ -1,6 +1,5 @@
-import app, { checkRandomEvenOrOdd, explanation, greetUser } from "../src/cod-brain-even.js";
+#!/usr/bin/env node
 
-app();
-greetUser();
-explanation();
-checkRandomEvenOrOdd()
+import playGameEven from "../src/cod-brain-even.js";
+
+playGameEven();
