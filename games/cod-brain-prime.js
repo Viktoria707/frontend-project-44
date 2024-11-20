@@ -1,3 +1,5 @@
+import startGames from '../src/index.js';
+
 const isPrime = (num) => {
   if (num <= 1) return false;
   for (let i = 2; i <= Math.sqrt(num); i += 1) {
@@ -15,5 +17,7 @@ const playGamePrime = {
     return { question, correctAnswer };
   },
 };
+
+startGames(playGamePrime);
 
 export default playGamePrime;
