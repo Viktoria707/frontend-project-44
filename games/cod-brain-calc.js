@@ -1,3 +1,5 @@
+import startGames from '../src/index.js';
+
 const playGameCalc = {
   instructions: 'What is the result of the expression?',
   generateQuestion() {
@@ -20,5 +22,7 @@ const playGameCalc = {
     return { question, correctAnswer };
   },
 };
+
+startGames(playGameCalc);
 
 export default playGameCalc;
