@@ -1,3 +1,5 @@
+import startGames from '../src/index.js';
+
 const playGameEven = {
   instructions: 'Answer "yes" if the number is even, otherwise answer "no".',
   generateQuestion() {
@@ -8,5 +10,7 @@ const playGameEven = {
     return { question, correctAnswer };
   },
 };
+
+startGames(playGameEven);
 
 export default playGameEven;
