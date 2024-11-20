@@ -1,3 +1,5 @@
+import startGames from '../src/index.js';
+
 export const gcd = (a, b) => {
   while (b !== 0) {
     const temp = b;
@@ -17,5 +19,7 @@ const playGameGcd = {
     return { question, correctAnswer };
   },
 };
+
+startGames(playGameGcd);
 
 export default playGameGcd;
