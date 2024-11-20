@@ -1,13 +1,13 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Viktoria707/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Viktoria707/frontend-project-44/actions)",
+  "description": "[![пять консольных игр для прокачки мозга](https://github.com/Viktoria707/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Viktoria707/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/brain-even.js"
   },
-  "author": "",
+  "author": "Viktoriya",
   "license": "ISC",
   "bin": {
     "brain-games":  "bin/brain-games.js",
