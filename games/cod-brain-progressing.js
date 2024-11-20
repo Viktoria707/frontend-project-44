@@ -1,3 +1,5 @@
+import startGames from '../src/index.js';
+
 const playGameProgression = {
   instructions: 'What number is missing in the progression?',
   generateQuestion() {
@@ -11,5 +13,7 @@ const playGameProgression = {
     return { question, correctAnswer: correctAnswer.toString() };
   },
 };
+
+startGames(playGameProgression);
 
 export default playGameProgression;
