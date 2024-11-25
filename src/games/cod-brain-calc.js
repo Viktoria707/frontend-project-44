@@ -9,15 +9,21 @@ const playGameCalc = {
     const operation = operations[Math.floor(Math.random() * operations.length)];
     let question;
     let correctAnswer;
-    if (operation === '+') {
-      question = `${num1} + ${num2}`;
-      correctAnswer = (num1 + num2).toString();
-    } else if (operation === '-') {
-      question = `${num1} - ${num2}`;
-      correctAnswer = (num1 - num2).toString();
-    } else if (operation === '*') {
-      question = `${num1} * ${num2}`;
-      correctAnswer = (num1 * num2).toString();
+    switch (operation) {
+      case '+':
+        question = `${num1} + ${num2}`;
+        correctAnswer = (num1 + num2).toString();
+        break;
+      case '-':
+        question = `${num1} - ${num2}`;
+        correctAnswer = (num1 - num2).toString();
+        break;
+      case '*':
+        question = `${num1} * ${num2}`;
+        correctAnswer = (num1 * num2).toString();
+        break;
+      default:
+        break;
     }
     return { question, correctAnswer };
   },
