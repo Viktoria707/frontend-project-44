@@ -16,7 +16,7 @@ const startGames = (gameLogic) => {
       console.log('Correct!');
       score += 1;
     } else {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}. Let\`s try again, ${name}!`);
+      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}. Let's try again, ${name}!`);
       return;
     }
   }
