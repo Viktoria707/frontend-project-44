@@ -10,15 +10,13 @@ export const gcd = (a, b) => {
   return a;
 };
 
-const playGameGcd = {
-  instructions: 'Find the greatest common divisor of given numbers.',
-  generateQuestion() {
-    const num1 = getRandomNumber(1, 100);
-    const num2 = getRandomNumber(1, 100);
-    const question = `${num1} ${num2}`;
-    const correctAnswer = gcd(num1, num2).toString();
-    return { question, correctAnswer };
-  },
+const playGameGcd = () => {
+  const instructions = 'Find the greatest common divisor of given numbers.';
+  const num1 = getRandomNumber(1, 100);
+  const num2 = getRandomNumber(1, 100);
+  const question = `${num1} ${num2}`;
+  const correctAnswer = gcd(num1, num2).toString();
+  return { question, correctAnswer, instructions };
 };
 
 startGames(playGameGcd);
