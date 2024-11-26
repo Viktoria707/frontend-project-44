@@ -1,5 +1,5 @@
-import startGames from "../index.js";
-import { getRandomNumber } from "../utils/random.js";
+import startGames from '../index.js';
+import { getRandomNumber } from '../utils/random.js';
 
 const playGameProgression = () => {
   const instructions = 'What number is missing in the progression?';

@@ -1,5 +1,5 @@
-import startGames from "../index.js";
-import { getRandomNumber } from "../utils/random.js";
+import startGames from '../index.js';
+import { getRandomNumber } from '../utils/random.js';
 
 export const gcd = (a, b) => {
   while (b !== 0) {

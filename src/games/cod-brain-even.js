@@ -1,5 +1,5 @@
-import startGames from "../index.js";
-import { getRandomNumber } from "../utils/random.js";
+import startGames from '../index.js';
+import { getRandomNumber } from '../utils/random.js';
 
 const playGameEven = () => {
   const instructions = 'Answer "yes" if the number is even, otherwise answer "no".';
